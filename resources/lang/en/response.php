@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'cannot_remove_this_resource_permanently' => 'Cannot remove this resource permanently. It is related with any other resource',
+    'charge_for_plan' => 'Charge for plan :plan_id',
+    'does_not_exists_any_model_with_the_specified_identificator' => 'Does not exists any :model with the specified identificator',
+    'item_is_not_belongs_to_the_owner' => 'The specified :item does not belongs to the :owner.',
+    'owner_is_not_the_owner_of_the_item' => 'The specified :owner is not the owner of the :item.',
+    'stripe_key_or_stripe_secret_are_not_defined' => 'STRIPE_KEY or STRIPE_SECRET are not defined',
+    'test_charge_for_plan' => 'Test charge for plan :plan_id from :email',
+    'the_agreement_has_already_been_canceled' => 'The agreement has already been cancelled. Keep in mind that you can still use your agreement until :to',
+    'the_period_of_time_cannot_be_longer_than_x_days' => 'The period of time cannot be longer than :days days',
+    'the_specified_item_has_a_stored_feature' => 'The specified :item has a stored :feature',
+    'the_specified_item_has_not_a_stored_feature' => 'The specified :item has not a stored :feature',
+    'the_specified_method_for_the_request_is_invalid' => 'The specified method for the request is invalid',
+    'the_specified_stripe_plan_does_not_exists' => 'The specified Stripe Plan with ID :stripe_plan_id does not exists',
+    'the_specified_url_cannot_be_found' => 'The specified URL cannot be found',
+    'the_specified_user_is_not_active' => 'The specified User is not active',
+    'the_user_has_an_active_agreement_until' => 'The user has an active :type agreement until :to [Agreement Id: :id]',
+    'the_user_has_not_an_active_agreement' => 'The user has not an active agreement',
+    'the_user_has_an_active_agreement_but_uses_a_different_plan' => 'The user has an active agreement, but uses a different plan :plan_id',
+    'trying_to_charge_for_plan' => 'Trying to charge for plan :plan_id from :email',
+    'unexpected_exception' => 'Unexpected exception :message',
+    'you_need_to_specify_a_different_value_to_update' => 'You need to specify a different value to update',
+];

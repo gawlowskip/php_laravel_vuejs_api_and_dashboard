@@ -1,0 +1,62 @@
+@import "variables";
+
+.page-title {
+    background: $color-bg; 
+    padding: 3rem 0; 
+	.badge-light {
+		vertical-align: middle; margin-left: 1rem; color: #FFF;
+    }
+    @media (max-width: 991px) {
+		padding: 1rem 0; 
+		h1 {
+			font-size: 1.75rem;
+		}
+	}
+}
+
+
+.developers-list,.project-list {
+    .developers-list-item,
+    .project-item {
+        padding: 1rem 0 1rem 0; font-size: 0.8rem;
+        &:not(:last-child) {
+            border-bottom: 1px solid $color-border; 
+        }
+        .h4 {
+            margin-bottom: 0.25rem; font-weight: bold;
+        }
+        word-wrap: break-word;
+        .btn-action {
+            a, form, span {
+                &:not(:first-child) {
+                    margin-left: .5rem;
+                }
+            }
+            @media(min-width: 992px) {
+                text-align: right;
+            }
+        }
+        @media (max-width: 1299px) {
+            font-size: 0.75rem;
+        }
+    }
+    
+}
+
+.image-gallery {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    li {
+        margin: 0 1rem 1rem 0;
+        img{
+            height: 100px; 
+        }
+    }
+}
+
+.blur {
+    opacity: 0.5;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}

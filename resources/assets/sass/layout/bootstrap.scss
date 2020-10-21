@@ -1,0 +1,87 @@
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+/* Custom Bootstrap */
+$theme-colors: (
+  "primary":    #194e5c,
+  "secondary":  #a87a4f,
+  "success":    #50ae10,
+  "info":       #a8ddf0,
+  "warning":    #ffcc66,
+  "danger":     red,
+  "light":      #b6b6b6,
+  "dark":       #626262,
+);
+
+/* GLOBAL */
+/* Text Color */
+$body-bg: #ffffff;
+$body-color: #626262;
+$border-radius:  8px;
+$grid-gutter-width: 15px !default;
+
+/* BUTTONS */
+/* Button LG */
+$btn-padding-y-lg: 5px;
+$btn-padding-x-lg: 5px;
+$btn-border-radius-lg: 0;
+
+/* NAVBAR */
+$navbar-padding-y: 0;
+$navbar-padding-x: 0;
+
+/* Nav Link */
+$nav-link-padding-y: 1.5rem;
+$nav-link-padding-x: 1rem;
+
+/* Navbar Expanded */
+$navbar-nav-link-padding-x: 1.5rem;
+
+/* Navbar Brand */
+$navbar-brand-padding-x: 0;
+$navbar-brand-padding-y: 15px;
+
+/* Nav Tabs */
+$nav-tabs-link-active-border-color: transparent;
+
+/* DROPDOWN */
+$dropdown-border-radius: 0;
+$dropdown-border-width: 0;
+$dropdown-spacer: 0;
+
+/* FORMS */
+//$input-padding-y: 8px;
+//$input-border-color: #e9e9e9;
+//$input-btn-focus-width: 2px;
+
+/* ALERTS */
+$alert-margin-bottom: $grid-gutter-width;
+$alert-padding-y: 1rem;
+
+/* PAGINATION */
+$pagination-border-width: 1px;
+$pagination-border-color: #e2e6e9;
+$pagination-padding-y: 5px;
+$pagination-padding-x: 10px;
+
+/* MODALS */
+//$modal-header-border-color: #e9e9e9;
+//$modal-header-padding: 20px;
+//$modal-inner-padding: 20px;
+//$modal-lg: 950px;
+//$modal-md: 750px;
+
+/* BREADCRUMB */
+$breadcrumb-bg: transparent;
+$breadcrumb-padding-y: 5px;
+$breadcrumb-padding-x: 0;
+$breadcrumb-margin-bottom: 15px;
+$breadcrumb-border-radius: 0;
+$breadcrumb-divider: "";
+$breadcrumb-active-color: #153655;
+
+/* TOOLTIP */
+$tooltip-bg: #727272;
+$tooltip-color: #FFF;
+$tooltip-padding-y: 5px;
+$tooltip-padding-x: 20px;
+$tooltip-font-size: 11px;
